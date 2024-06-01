@@ -1,0 +1,175 @@
+local A60 = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local UIScale = Instance.new("UIScale")
+local cue2 = Instance.new("Sound")
+local sddb = Instance.new("EchoSoundEffect")
+local sd = Instance.new("ReverbSoundEffect")
+sd.Parent = cue2
+sd.DecayTime = 1.5
+sd.Archivable = true
+sd.Density = 1
+sd.Diffusion = 1
+sd.DryLevel = -6
+sd.Enabled = true
+sd.Priority = 0
+sd.WetLevel = 0
+sd.Name = "haha"
+
+sddb.Parent = cue2
+sddb.Delay = 1
+sddb.Feedback = 0.5
+sddb.Priority = 0
+sddb.WetLevel = 0
+sddb.DryLevel = 0
+sddb.Enabled = true
+sddb.Archivable = true
+sddb.Name = "hahaha"
+
+
+cue2.Parent = game.Workspace
+cue2.Name = "jumpsound"
+cue2.SoundId = "rbxassetid://6459610652"
+cue2.Volume = 5
+cue2.PlaybackSpeed = 1
+cue2.Looped = true
+cue2:Play()
+
+A60.Name = "A60"
+A60.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+A60.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = A60
+Frame.AnchorPoint = Vector2.new(0.5, 0.5)
+Frame.BackgroundColor3 = Color3.fromRGB(197, 0, 0)
+Frame.Position = UDim2.new(0.5, 0, 0.5, 0)
+Frame.Size = UDim2.new(2, 0, 2, 0)
+Frame.ZIndex = 50
+
+ImageLabel.Parent = Frame
+ImageLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+ImageLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(0.490973324, 0, 0.476232767, 0)
+ImageLabel.Size = UDim2.new(0.403061181, 0, 0.629644573, 0)
+ImageLabel.ZIndex = 51
+ImageLabel.Image = "rbxassetid://12145554242"
+ImageLabel.ScaleType = Enum.ScaleType.Fit
+
+UIScale.Parent = A60
+
+local function HPVZT_fake_script() 
+	local script = Instance.new('LocalScript', ImageLabel)
+
+	local ImageLabel = script.Parent
+	local face = {"a1", "a2", "a3", "a4", "a5", "a6"}
+	cue2:Play()
+	for i, v in pairs(face) do
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145554242"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145534911"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145599498"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12155335619"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145599275"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145598814"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145554242"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145534911"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145599498"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12155335619"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145599275"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145598814"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145554242"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145534911"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145599498"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12155335619"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145599275"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145598814"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145554242"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145534911"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145599498"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12155335619"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145599275"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145598814"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145554242"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145598814"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145554242"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145534911"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145599498"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12155335619"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145599275"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145598814"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145554242"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145598814"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145554242"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145534911"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145599498"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12155335619"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145599275"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145598814"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145554242"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145598814"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145554242"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145534911"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145599498"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12155335619"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145599275"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145598814"
+		wait(0)
+		ImageLabel.Image = "rbxassetid://12145554242"
+		wait(0.2)
+		cue2:Destroy()
+	Frame.Visible = false
+		A60:Remove()
+	end
+	
+	
+	
+end
+coroutine.wrap(HPVZT_fake_script)()
